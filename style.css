@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .header {
@@ -11,16 +12,27 @@ body {
     padding: 0 45px 0 45px;
 }
 
+img {
+    width: 300px;
+    height: 100px;
+}
 .nav  {
     list-style: none;
     display: flex;
 }
 
 .nav li {
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .nav a {
     color: #FFF;
     text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+}
+
+.nav a:hover {
+    color: #c5cae9;
+    transform: rotate(6deg);
 }
