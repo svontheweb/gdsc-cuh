@@ -36,3 +36,38 @@ img {
     color: #c5cae9;
     transform: rotate(6deg);
 }
+
+
+
+
+.welcome {
+    background-color: #c5cae9;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-content {
+    max-width: 500px;
+}
+
+.welcome-content h1 {
+    font-weight: normal;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.welcome-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.button {
+    font-size: 1.1rem;
+    background-color: #283593;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
