@@ -1,6 +1,11 @@
+@font-face {
+    font-family: google;
+    src: url('fonts/GoogleSans-Regular-v1.27.ttf');
+}
+
 body {
     margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'google', 'Source Sans Pro', sans-serif;
 }
 
 /* header div */
